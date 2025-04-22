@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// API routes
+// API route
 app.use('/api/ideas', ideaRouter);
 
 app.listen(port, () => {
